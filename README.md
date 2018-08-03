@@ -19,7 +19,7 @@ If you'd like to join, see the [guide on joining data library projects](https://
 * [Google Drive File
   Share](https://drive.google.com/open?id=1YUCKXsL_HsCnZmA5u3ySczJNkGbnwCT2 )
 * [Data Repository](https://data.sandiegodata.org/dataset?tags=water-project)
-* [Our Jupyter Lab server. ](https://jupyter.civicknowledge.com/). Log in
+* [Our Jupyter Lab server](https://jupyter.civicknowledge.com/). Log in
       with your Redmine credentials.
 
 ## Notebooks
