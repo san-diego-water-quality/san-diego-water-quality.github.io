@@ -1,6 +1,5 @@
 # San Diego Water Quality Project
 
-
 In this data analysis project, volunteer data analysts are studying a range of
 public dataset to explore San Diego county water quality issues, such as beach
 closures and stream impairment. Volunteers join the the project to learn new
@@ -21,6 +20,14 @@ If you'd like to join, see the [guide on joining data library projects](https://
 * [Data Repository](https://data.sandiegodata.org/dataset?tags=water-project)
 * [Our Jupyter Lab server](https://jupyter.civicknowledge.com/). Log in
       with your Redmine credentials.
+
+# Datasets
+
+*  The ``water-project`` tag in our [Data Repository](https://data.sandiegodata.org/dataset?tags=water-project) has all of the released datasets. 
+* The two most important are: 
+	* [San Diego Beachwatch Data, With Features](https://data.sandiegodata.org/dataset/sandiegodata-org-beachwatch)
+	* [Tides, River Flow and Rain](https://data.sandiegodata.org/dataset/sandiegodata-org-water_quality)
+* All of the datsets can be built from source from our [github repo.](https://github.com/san-diego-water-quality/water-datasets)
 
 ## Notebooks
 
