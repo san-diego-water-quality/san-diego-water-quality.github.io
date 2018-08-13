@@ -7,7 +7,16 @@ data analysis skills, get detailed knowledge of environmental issues, or to
 contribute to improving San Diego's natural resources. Anyone is welcome to
 participate in the project.
 
-If you'd like to join, see the [guide on joining data library projects](https://www.sandiegodata.org/projects/join/).
+# Getting Started
+
+If you'd like to join the project, see the [guide on joining data library projects](https://www.sandiegodata.org/projects/join/).
+
+After setting up your account, you should: 
+
+*  Read the [past project news.](https://redmine.civicknowledge.com/projects/san-diego-water-quality/news)
+* Study some of the example Jupyter notebooks for [temporal correlations](https://github.com/san-diego-water-quality/ericbusboom/blob/master/Beachwatch%20station%20correlations.ipynb) or [logistic regression](https://github.com/san-diego-water-quality/ericbusboom/blob/master/Beachwatch%20Logistic.ipynb) or [other examples] https://github.com/san-diego-water-quality/water-datasets/blob/master/derived/sandiegodata.org-beachwatch/notebooks/Examples.ipynb)
+* Find a [ticket work work on.](https://redmine.civicknowledge.com/projects/san-diego-water-quality/issues)
+
 
 # Project Resources
 
