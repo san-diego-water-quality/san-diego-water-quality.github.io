@@ -14,9 +14,10 @@ If you'd like to join the project, see the [guide on joining data library projec
 After setting up your account, you should: 
 
 *  Read the [past project news.](https://redmine.civicknowledge.com/projects/san-diego-water-quality/news)
-* Study some of the example Jupyter notebooks for [temporal correlations](https://github.com/san-diego-water-quality/ericbusboom/blob/master/Beachwatch%20station%20correlations.ipynb) or [logistic regression](https://github.com/san-diego-water-quality/ericbusboom/blob/master/Beachwatch%20Logistic.ipynb) or [other examples] https://github.com/san-diego-water-quality/water-datasets/blob/master/derived/sandiegodata.org-beachwatch/notebooks/Examples.ipynb)
-* Find a [ticket work work on.](https://redmine.civicknowledge.com/projects/san-diego-water-quality/issues)
-
+* Study some of the example Jupyter notebooks for [temporal correlations](https://github.com/san-diego-water-quality/ericbusboom/blob/master/Beachwatch%20station%20correlations.ipynb) or [logistic regression](https://github.com/san-diego-water-quality/ericbusboom/blob/master/Beachwatch%20Logistic.ipynb) or [other examples](https://github.com/san-diego-water-quality/water-datasets/blob/master/derived/sandiegodata.org-beachwatch/notebooks/Examples.ipynb)
+* Find a [ticket to work on.](https://redmine.civicknowledge.com/projects/san-diego-water-quality/issues)
+* [Come to the monthly meetings](https://www.meetup.com/San-Diego-Regional-Data-Library/) to show of your work, or to learn from others. 
+* [Schedule office hours](https://www.sandiegodata.org/office-hours/) with the project manager, Eric Busboom, if you need more detailed help. 
 
 # Project Resources
 
