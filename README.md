@@ -2,7 +2,7 @@
 
 In this data analysis project, volunteer data analysts are studying a range of
 public dataset to explore San Diego county water quality issues, such as beach
-closures and stream impairment. Volunteers join the the project to learn new
+closures and stream impairment. Volunteers join the project to learn new
 data analysis skills, get detailed knowledge of environmental issues, or to
 contribute to improving San Diego's natural resources. Anyone is welcome to
 participate in the project.
