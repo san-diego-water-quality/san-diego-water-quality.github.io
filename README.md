@@ -45,5 +45,6 @@ After setting up your account, you should:
 
 # Notebooks
 
+* [Logistic Regressions](https://github.com/san-diego-water-quality/ericbusboom/blob/master/Beachwatch%20Logistic.ipynb)
 * [Beachwatch Station Correlations](https://github.com/san-diego-water-quality/ericbusboom/blob/master/Beachwatch%20station%20correlations.ipynb)
 * [SD River Streamflow EDA](https://github.com/san-diego-water-quality/ericbusboom/blob/master/Stream%20Flow.ipynb)
