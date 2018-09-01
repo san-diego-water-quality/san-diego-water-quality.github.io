@@ -1,0 +1,23 @@
+#!/bin/bash 
+
+
+mkdir -p /opt/datapackages
+
+#pip install metapack
+pip install git+https://github.com/Metatab/metapack.git
+
+if [ ! -d "/opt/metapack/water-datasets" ]; then
+	cd /opt/metapack
+	git clone https://github.com/san-diego-water-quality/water-datasets.git
+	cd /opt/metapack/water-datasets
+	
+	pip install -r requirements.txt
+	
+else
+	cd /opt/metapack/water-datasets
+	git pull 
+	pip install -U -r requirements.txt
+fi
+
+make
+
