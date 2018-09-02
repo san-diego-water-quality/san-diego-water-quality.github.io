@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_253013b2ad5846c98bec8c40d6e32d41 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_253013b2ad5846c98bec8c40d6e32d41" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_253013b2ad5846c98bec8c40d6e32d41 = L.map(
+        'map_253013b2ad5846c98bec8c40d6e32d41', {
+        center: [32.755, -117.253],
+        zoom: 13,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+L.control.scale().addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+    
+    
+    var tile_layer_a70d46cd05dd40d7b5321f1f101a61b1 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+    
+        var marker_7ce5412dacfc4a3d9b5ee73b87904ad2 = L.marker(
+            [32.584702, -117.133003234863],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+
+                var div_icon_aef1ac053cf64311a5726ad48a6ca53f = L.divIcon({
+                    iconSize: [250,36],
+                    iconAnchor: [0,0],
+                    
+                    className: 'empty',
+                    html: '<div style="font-size: 10pt">PL-010-Imperial Beach municipal beach, other, San Diego</div>',
+                    });
+                marker_7ce5412dacfc4a3d9b5ee73b87904ad2.setIcon(div_icon_aef1ac053cf64311a5726ad48a6ca53f);
+            
+    
+        var marker_ed74bfcfb1ca47879727bb7ea0370f01 = L.marker(
+            [32.584702, -117.133003234863],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+            var popup_5a2d0016ed914b8f9f5acac4c319a029 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_eaa4abd87d714ca3846ed08fa4a95c8b = $('<div id="html_eaa4abd87d714ca3846ed08fa4a95c8b" style="width: 100.0%; height: 100.0%;">PL-010-Imperial Beach municipal beach, other, San Diego</div>')[0];
+                popup_5a2d0016ed914b8f9f5acac4c319a029.setContent(html_eaa4abd87d714ca3846ed08fa4a95c8b);
+            
+
+            marker_ed74bfcfb1ca47879727bb7ea0370f01.bindPopup(popup_5a2d0016ed914b8f9f5acac4c319a029)
+            ;
+
+            
+        
+    
+        var marker_8e7603d064804af1aabfd3b5191f0095 = L.marker(
+            [32.665298, -117.24299621581999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+
+                var div_icon_2b3bb39f806e4644b2c045a85ce82959 = L.divIcon({
+                    iconSize: [250,36],
+                    iconAnchor: [0,0],
+                    
+                    className: 'empty',
+                    html: '<div style="font-size: 10pt">PL-040-non-accessible or restricted access shoreline on Pt. Loma, San Diego</div>',
+                    });
+                marker_8e7603d064804af1aabfd3b5191f0095.setIcon(div_icon_2b3bb39f806e4644b2c045a85ce82959);
+            
+    
+        var marker_eb2297b7bab345398fbd0f52a20d0db1 = L.marker(
+            [32.665298, -117.24299621581999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+            var popup_26f816804615472ba67943be8ec232d8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_54b1fa3bbbde4ea7b19af555a92a4736 = $('<div id="html_54b1fa3bbbde4ea7b19af555a92a4736" style="width: 100.0%; height: 100.0%;">PL-040-non-accessible or restricted access shoreline on Pt. Loma, San Diego</div>')[0];
+                popup_26f816804615472ba67943be8ec232d8.setContent(html_54b1fa3bbbde4ea7b19af555a92a4736);
+            
+
+            marker_eb2297b7bab345398fbd0f52a20d0db1.bindPopup(popup_26f816804615472ba67943be8ec232d8)
+            ;
+
+            
+        
+    
+        var marker_28384f38003043b39fbec5050811d637 = L.marker(
+            [32.679401, -117.248001098633],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+
+                var div_icon_8299681a7f544ce496b39dd8f41792bd = L.divIcon({
+                    iconSize: [250,36],
+                    iconAnchor: [0,0],
+                    
+                    className: 'empty',
+                    html: '<div style="font-size: 10pt">PL-050-non-accessible or restricted access shoreline on Pt. Loma, San Diego</div>',
+                    });
+                marker_28384f38003043b39fbec5050811d637.setIcon(div_icon_8299681a7f544ce496b39dd8f41792bd);
+            
+    
+        var marker_5ca4987bff004c1fbdf0a29ff8000359 = L.marker(
+            [32.679401, -117.248001098633],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+            var popup_cdbdbcf0cd21429a82c660f18fcf11a8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d017eaf86f594eaa95dcb6e40f07c5f6 = $('<div id="html_d017eaf86f594eaa95dcb6e40f07c5f6" style="width: 100.0%; height: 100.0%;">PL-050-non-accessible or restricted access shoreline on Pt. Loma, San Diego</div>')[0];
+                popup_cdbdbcf0cd21429a82c660f18fcf11a8.setContent(html_d017eaf86f594eaa95dcb6e40f07c5f6);
+            
+
+            marker_5ca4987bff004c1fbdf0a29ff8000359.bindPopup(popup_cdbdbcf0cd21429a82c660f18fcf11a8)
+            ;
+
+            
+        
+    
+        var marker_9cc7b58426b445dc8f469c860ba37f50 = L.marker(
+            [32.693401, -117.261001586914],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+
+                var div_icon_24c3dbeed3d5418b9f23d612eebd18dd = L.divIcon({
+                    iconSize: [250,36],
+                    iconAnchor: [0,0],
+                    
+                    className: 'empty',
+                    html: '<div style="font-size: 10pt">PL-060-non-accessible or restricted access shoreline on Pt. Loma, San Diego</div>',
+                    });
+                marker_9cc7b58426b445dc8f469c860ba37f50.setIcon(div_icon_24c3dbeed3d5418b9f23d612eebd18dd);
+            
+    
+        var marker_4e19256aaf704a508cb79d24a73583c8 = L.marker(
+            [32.693401, -117.261001586914],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+            var popup_f2e8339af12b44cbbdd9393919e9a3fc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8770975aeebf460abd4107d23d69135a = $('<div id="html_8770975aeebf460abd4107d23d69135a" style="width: 100.0%; height: 100.0%;">PL-060-non-accessible or restricted access shoreline on Pt. Loma, San Diego</div>')[0];
+                popup_f2e8339af12b44cbbdd9393919e9a3fc.setContent(html_8770975aeebf460abd4107d23d69135a);
+            
+
+            marker_4e19256aaf704a508cb79d24a73583c8.bindPopup(popup_f2e8339af12b44cbbdd9393919e9a3fc)
+            ;
+
+            
+        
+    
+        var marker_1f20cc2fcdf14a8fa6871d78b0303f71 = L.marker(
+            [32.7197, -117.25700378418001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+
+                var div_icon_a734933aad564466801ff2853212acbc = L.divIcon({
+                    iconSize: [250,36],
+                    iconAnchor: [0,0],
+                    
+                    className: 'empty',
+                    html: '<div style="font-size: 10pt">PL-070-Sunset Cliffs Park, San Diego</div>',
+                    });
+                marker_1f20cc2fcdf14a8fa6871d78b0303f71.setIcon(div_icon_a734933aad564466801ff2853212acbc);
+            
+    
+        var marker_1c9373c5d49241a0af0b3f22da317626 = L.marker(
+            [32.7197, -117.25700378418001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+            var popup_81b469124a644eb4891d7368449ae67a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_eb55d7faa1f948a9ba28128eace18a7e = $('<div id="html_eb55d7faa1f948a9ba28128eace18a7e" style="width: 100.0%; height: 100.0%;">PL-070-Sunset Cliffs Park, San Diego</div>')[0];
+                popup_81b469124a644eb4891d7368449ae67a.setContent(html_eb55d7faa1f948a9ba28128eace18a7e);
+            
+
+            marker_1c9373c5d49241a0af0b3f22da317626.bindPopup(popup_81b469124a644eb4891d7368449ae67a)
+            ;
+
+            
+        
+    
+        var marker_dbb3eb761bde45c0927ebebecb5f497e = L.marker(
+            [32.732601, -117.25700378418001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+
+                var div_icon_6a82aee3a46845a3956b74c54441f88e = L.divIcon({
+                    iconSize: [250,36],
+                    iconAnchor: [0,0],
+                    
+                    className: 'empty',
+                    html: '<div style="font-size: 10pt">PL-080-Ocean Beach, San Diego</div>',
+                    });
+                marker_dbb3eb761bde45c0927ebebecb5f497e.setIcon(div_icon_6a82aee3a46845a3956b74c54441f88e);
+            
+    
+        var marker_8028554bca6040b0aa0101eb9fbc25c9 = L.marker(
+            [32.732601, -117.25700378418001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+            var popup_a90bc38e7e714d2a822bacb1571ed18a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_35d30e0744d847fc9482335761a40b30 = $('<div id="html_35d30e0744d847fc9482335761a40b30" style="width: 100.0%; height: 100.0%;">PL-080-Ocean Beach, San Diego</div>')[0];
+                popup_a90bc38e7e714d2a822bacb1571ed18a.setContent(html_35d30e0744d847fc9482335761a40b30);
+            
+
+            marker_8028554bca6040b0aa0101eb9fbc25c9.bindPopup(popup_a90bc38e7e714d2a822bacb1571ed18a)
+            ;
+
+            
+        
+    
+        var marker_49553389c66246bf8a9293f1ebec06ac = L.marker(
+            [32.7467, -117.25499725341801],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+
+                var div_icon_31899d1a2c6b40959eadd343b28731f7 = L.divIcon({
+                    iconSize: [250,36],
+                    iconAnchor: [0,0],
+                    
+                    className: 'empty',
+                    html: '<div style="font-size: 10pt">PL-090-Ocean Beach, San Diego</div>',
+                    });
+                marker_49553389c66246bf8a9293f1ebec06ac.setIcon(div_icon_31899d1a2c6b40959eadd343b28731f7);
+            
+    
+        var marker_31a46bce3a9843c9852596ad6bc10290 = L.marker(
+            [32.7467, -117.25499725341801],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+            var popup_d8ff456291df48f3b71dcc46edc8c32d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_84875d241f4d4fdf825bad45cf9cb34b = $('<div id="html_84875d241f4d4fdf825bad45cf9cb34b" style="width: 100.0%; height: 100.0%;">PL-090-Ocean Beach, San Diego</div>')[0];
+                popup_d8ff456291df48f3b71dcc46edc8c32d.setContent(html_84875d241f4d4fdf825bad45cf9cb34b);
+            
+
+            marker_31a46bce3a9843c9852596ad6bc10290.bindPopup(popup_d8ff456291df48f3b71dcc46edc8c32d)
+            ;
+
+            
+        
+    
+        var marker_b459a2f2984b46da8db5255abc9189f9 = L.marker(
+            [32.749199, -117.252998352051],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+
+                var div_icon_60c1cb62c9624d20b8c4cd3f75f439da = L.divIcon({
+                    iconSize: [250,36],
+                    iconAnchor: [0,0],
+                    
+                    className: 'empty',
+                    html: '<div style="font-size: 10pt">PL-100-Ocean Beach, San Diego</div>',
+                    });
+                marker_b459a2f2984b46da8db5255abc9189f9.setIcon(div_icon_60c1cb62c9624d20b8c4cd3f75f439da);
+            
+    
+        var marker_9288523007c84495ac74da2c2157690f = L.marker(
+            [32.749199, -117.252998352051],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+            var popup_f29c8ab430c44ed5b61eab3794dd7c2e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7a1c1225f1a9459d90e9eb9dcf53b9d7 = $('<div id="html_7a1c1225f1a9459d90e9eb9dcf53b9d7" style="width: 100.0%; height: 100.0%;">PL-100-Ocean Beach, San Diego</div>')[0];
+                popup_f29c8ab430c44ed5b61eab3794dd7c2e.setContent(html_7a1c1225f1a9459d90e9eb9dcf53b9d7);
+            
+
+            marker_9288523007c84495ac74da2c2157690f.bindPopup(popup_f29c8ab430c44ed5b61eab3794dd7c2e)
+            ;
+
+            
+        
+    
+        var marker_d66ff3e87e82402b92a0163346c9e185 = L.marker(
+            [32.754002, -117.252998352051],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+
+                var div_icon_a768316b160d438dbd21fb6765c7be32 = L.divIcon({
+                    iconSize: [250,36],
+                    iconAnchor: [0,0],
+                    
+                    className: 'empty',
+                    html: '<div style="font-size: 10pt">PL-110-Ocean Beach, San Diego</div>',
+                    });
+                marker_d66ff3e87e82402b92a0163346c9e185.setIcon(div_icon_a768316b160d438dbd21fb6765c7be32);
+            
+    
+        var marker_682594d5595c4a4b8735661076891697 = L.marker(
+            [32.754002, -117.252998352051],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+            var popup_c4394f0e6fab43fdbadafd8c8abfe636 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b1be4d92d5f74c7f895eba37652d8bad = $('<div id="html_b1be4d92d5f74c7f895eba37652d8bad" style="width: 100.0%; height: 100.0%;">PL-110-Ocean Beach, San Diego</div>')[0];
+                popup_c4394f0e6fab43fdbadafd8c8abfe636.setContent(html_b1be4d92d5f74c7f895eba37652d8bad);
+            
+
+            marker_682594d5595c4a4b8735661076891697.bindPopup(popup_c4394f0e6fab43fdbadafd8c8abfe636)
+            ;
+
+            
+        
+    
+        var marker_7ce4d784459440fbb35906eb494b868d = L.marker(
+            [32.771301, -117.25399780273399],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+
+                var div_icon_d29d03c24ff246718c19a9b658e3abb3 = L.divIcon({
+                    iconSize: [250,36],
+                    iconAnchor: [0,0],
+                    
+                    className: 'empty',
+                    html: '<div style="font-size: 10pt">PL-120-Mission Beach, San Diego</div>',
+                    });
+                marker_7ce4d784459440fbb35906eb494b868d.setIcon(div_icon_d29d03c24ff246718c19a9b658e3abb3);
+            
+    
+        var marker_39dc0b633d3a480bacd9947f4569ff4b = L.marker(
+            [32.771301, -117.25399780273399],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_253013b2ad5846c98bec8c40d6e32d41);
+        
+    
+            var popup_9e81eb33eb3340b8ba8a4050e1e776d3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2a615601ea974cf6b102b31e0880ef14 = $('<div id="html_2a615601ea974cf6b102b31e0880ef14" style="width: 100.0%; height: 100.0%;">PL-120-Mission Beach, San Diego</div>')[0];
+                popup_9e81eb33eb3340b8ba8a4050e1e776d3.setContent(html_2a615601ea974cf6b102b31e0880ef14);
+            
+
+            marker_39dc0b633d3a480bacd9947f4569ff4b.bindPopup(popup_9e81eb33eb3340b8ba8a4050e1e776d3)
+            ;
+
+            
+        
+</script>
