@@ -45,6 +45,18 @@ After setting up your account, you should:
 
 # Notebooks
 
-* [Logistic Regressions](https://github.com/san-diego-water-quality/ericbusboom/blob/master/Beachwatch%20Logistic.ipynb)
-* [Beachwatch Station Correlations](https://github.com/san-diego-water-quality/ericbusboom/blob/master/Beachwatch%20station%20correlations.ipynb)
+* [Beachwatch Exploration.ipynb](https://github.com/san-diego-water-quality/water-quality-project/blob/master/notebooks/1%20Beachwatch%20Exploration.ipynb)
+* [Beachwatch Measurement Analysis.ipynb](https://github.com/san-diego-water-quality/water-quality-project/blob/master/notebooks/2%20Beachwatch%20Measurement%20Analysis.ipynb)
+* [Beachwatch Stations.ipynb](https://github.com/san-diego-water-quality/water-quality-project/blob/master/notebooks/3%20Beachwatch%20Stations.ipynb)
+* [Beachwatch correlations.ipynb](https://github.com/san-diego-water-quality/water-quality-project/blob/master/notebooks/4%20Beachwatch%20correlations.ipynb)
+* [Beachwatch Logistic Regression.ipynb](https://github.com/san-diego-water-quality/water-quality-project/blob/master/notebooks/5%20Beachwatch%20Logistic%20Regression.ipynb)
+* [Beachwatch Seasonality.ipynb](https://github.com/san-diego-water-quality/water-quality-project/blob/master/notebooks/6%20Beachwatch%20Seasonality.ipynb)
+* [Tides Rain and River.ipynb](https://github.com/san-diego-water-quality/water-quality-project/blob/master/notebooks/7%20Tides%20Rain%20and%20River.ipynb)
 * [SD River Streamflow EDA](https://github.com/san-diego-water-quality/ericbusboom/blob/master/Stream%20Flow.ipynb)
+
+
+
+
+
+
+
