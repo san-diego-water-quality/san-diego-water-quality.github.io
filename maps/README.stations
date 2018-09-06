@@ -1,0 +1,4 @@
+The source GIS file is in
+water-quality-project/datasets/derived/sandiegodata.org-station_maps/gis, and
+the map htmls should be exported to /maps, where the cm.sh command is used to
+copy the files here.
