@@ -21,9 +21,7 @@ After setting up your account, you should:
 
 # Project Resources
 
-* [The main management
-  site](https://redmine.civicknowledge.com/projects/san-diego-water-quality) ,
-  which hosts the wiki, issue tracking and the forum.
+* [Mailing List/Google Group](https://groups.google.com/a/sandiegodata.org/forum/#!forum/water)
 * [The Github organization](https://github.com/san-diego-water-quality)
 * [Google Drive File
   Share](https://drive.google.com/open?id=1YUCKXsL_HsCnZmA5u3ySczJNkGbnwCT2 )
