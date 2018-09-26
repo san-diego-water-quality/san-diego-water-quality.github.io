@@ -5,10 +5,10 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="stations20180906082633283" name="stations">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="water_measurement_stations20180910112758997" name="water measurement stations">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenStreetMap20180906082722690" name="OpenStreetMap">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20180910112638172" name="OpenStreetMap">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -16,10 +16,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-13100965.95930352434515953</xmin>
-      <ymin>3831754.00120299216359854</ymin>
-      <xmax>-13007243.20665187016129494</xmax>
-      <ymax>3950390.10457941051572561</ymax>
+      <xmin>-13089941.36689636670053005</xmin>
+      <ymin>3830940.83454928314313293</ymin>
+      <xmax>-12996218.61424471251666546</xmax>
+      <ymax>3949576.93792570149526</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -38,57 +38,39 @@
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="stations20180906082633283"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="water_measurement_stations20180910112758997"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20180906082722690"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20180910112638172"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>stations20180906082633283</item>
-      <item>OpenStreetMap20180906082722690</item>
+      <item>OpenLayers_plugin_layer20180910112638172</item>
+      <item>water_measurement_stations20180910112758997</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="stations" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="water measurement stations" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="stations20180906082633283" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="water_measurement_stations20180910112758997" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OpenStreetMap" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenStreetMap20180906082722690" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20180910112638172" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
   <projectlayers>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
       <extent>
         <xmin>-20037508.33999999985098839</xmin>
         <ymin>-20037508.33999999985098839</ymin>
         <xmax>20037508.33999999985098839</xmax>
         <ymax>20037508.33999999985098839</ymax>
       </extent>
-      <id>OpenStreetMap20180906082722690</id>
-      <datasource>&lt;GDAL_WMS>
-  &lt;Service name="TMS">
-    &lt;ServerUrl>http://tile.openstreetmap.org/${z}/${x}/${y}.png&lt;/ServerUrl>
-  &lt;/Service>
-  &lt;DataWindow>
-    &lt;UpperLeftX>-20037508.34&lt;/UpperLeftX>
-    &lt;UpperLeftY>20037508.34&lt;/UpperLeftY>
-    &lt;LowerRightX>20037508.34&lt;/LowerRightX>
-    &lt;LowerRightY>-20037508.34&lt;/LowerRightY>
-    &lt;TileLevel>19&lt;/TileLevel>
-    &lt;TileCountX>1&lt;/TileCountX>
-    &lt;TileCountY>1&lt;/TileCountY>
-    &lt;YOrigin>top&lt;/YOrigin>
-  &lt;/DataWindow>
-  &lt;Projection>EPSG:3857&lt;/Projection>
-  &lt;BlockSizeX>256&lt;/BlockSizeX>
-  &lt;BlockSizeY>256&lt;/BlockSizeY>
-  &lt;BandsCount>3&lt;/BandsCount>
-  &lt;Cache />
-&lt;/GDAL_WMS>
-</datasource>
+      <id>OpenLayers_plugin_layer20180910112638172</id>
+      <datasource></datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -106,41 +88,16 @@
         </spatialrefsys>
       </srs>
       <customproperties>
-        <property key="identify/format" value="Value"/>
         <property key="ol_layer_type" value="OpenStreetMap"/>
       </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-        <noDataList bandNo="2" useSrcNoData="0"/>
-        <noDataList bandNo="3" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-          <rasterTransparency/>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <extent>
-        <xmin>-117.5950012207029971</xmin>
-        <ymin>32.53440100000000257</ymin>
-        <xmax>-116.79316711425799724</xmax>
-        <ymax>33.38600200000000484</ymax>
-      </extent>
-      <id>stations20180906082633283</id>
-      <datasource>file:///Users/eric/proj/virt-proj/water/water-quality-project/datasets/derived/sandiegodata.org-station_maps/_packages/sandiegodata.org-station_maps-1/data/stations.csv?type=csv&amp;xField=targetlongitude&amp;yField=targetlatitude&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <id>water_measurement_stations20180910112758997</id>
+      <datasource>dbname='iidtcy_hxtyhu' host=db.qgiscloud.com port=5432 user='iidtcy_hxtyhu' password='d878bf84' key='qc_id' estimatedmetadata=true table="stations" (wkb_geometry) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>stations</layername>
+      <layername>water measurement stations</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -153,12 +110,13 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="UTF-8">delimitedtext</provider>
+      <provider encoding="UTF-8">postgres</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
       <defaults>
+        <default field="qc_id" expression=""/>
         <default field="stationgroup" expression=""/>
         <default field="stationcode" expression=""/>
         <default field="stationname" expression=""/>
@@ -172,6 +130,9 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <edittypes>
+        <edittype widgetv2type="TextEdit" name="qc_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="stationgroup">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
@@ -801,14 +762,11 @@
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
         <property key="labeling" value="pal"/>
         <property key="labeling/addDirectionSymbol" value="false"/>
         <property key="labeling/angleOffset" value="0"/>
@@ -978,6 +936,7 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -1003,16 +962,17 @@
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
-        <alias field="stationgroup" index="0" name=""/>
-        <alias field="stationcode" index="1" name=""/>
-        <alias field="stationname" index="2" name=""/>
-        <alias field="program" index="3" name=""/>
-        <alias field="parentproject" index="4" name=""/>
-        <alias field="project" index="5" name=""/>
-        <alias field="targetlatitude" index="6" name=""/>
-        <alias field="targetlongitude" index="7" name=""/>
+        <alias field="qc_id" index="0" name=""/>
+        <alias field="stationgroup" index="1" name=""/>
+        <alias field="stationcode" index="2" name=""/>
+        <alias field="stationname" index="3" name=""/>
+        <alias field="program" index="4" name=""/>
+        <alias field="parentproject" index="5" name=""/>
+        <alias field="project" index="6" name=""/>
+        <alias field="targetlatitude" index="7" name=""/>
+        <alias field="targetlongitude" index="8" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1030,10 +990,10 @@
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -1086,7 +1046,7 @@ def my_form_open(dialog, layer, feature):
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>stations20180906082633283</value>
+        <value>water_measurement_stations20180910112758997</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>
@@ -1105,6 +1065,33 @@ def my_form_open(dialog, layer, feature):
         <value>0.000000</value>
       </LayerSnappingToleranceList>
     </Digitizing>
+    <qgis2web>
+      <Maxzoomlevel type="QString">28</Maxzoomlevel>
+      <Showpopupsonhover type="bool">false</Showpopupsonhover>
+      <Basemaps type="QString">OSM</Basemaps>
+      <Exportfolder type="QString">/Users/eric/proj/virt-proj/water/water-quality-project/datasets/derived/sandiegodata.org-station_maps/web</Exportfolder>
+      <mapFormat type="QString">openlayers</mapFormat>
+      <Precision type="QString">maintain</Precision>
+      <Measuretool type="QString">None</Measuretool>
+      <Usedebuglibraries type="bool">false</Usedebuglibraries>
+      <Baselayer type="QStringList">
+        <value>OSM</value>
+      </Baselayer>
+      <Addlayerslist type="QString">None</Addlayerslist>
+      <Highlightonhover type="bool">false</Highlightonhover>
+      <MatchprojectCRS type="bool">false</MatchprojectCRS>
+      <Addaddresssearch type="bool">false</Addaddresssearch>
+      <Minzoomlevel type="QString">1</Minzoomlevel>
+      <Geolocateuser type="bool">false</Geolocateuser>
+      <Exporter type="QString">folder</Exporter>
+      <MinifyGeoJSONfiles type="bool">false</MinifyGeoJSONfiles>
+      <Extent type="QString">Canvas extent</Extent>
+      <Restricttoextent type="bool">false</Restricttoextent>
+      <Template type="QString">full-screen</Template>
+      <Mappinglibrarylocation type="QString">Local</Mappinglibrarylocation>
+      <Searchlayer type="QString">stations_0</Searchlayer>
+      <Layersearch type="QString">stations: stationname</Layersearch>
+    </qgis2web>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>

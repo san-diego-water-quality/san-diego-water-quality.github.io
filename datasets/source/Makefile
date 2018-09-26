@@ -14,7 +14,8 @@ noaa.gov-daily_summary-san \
 noaa.gov-localclimate-200808_201807-san \
 tidesandcurrents.noaa.gov-water_levels-la_jolla \
 usngcenter.org-usng-ca11 \
-waterservices.usgs.gov-stream_discharge-fashion_valley_sd
+waterservices.usgs.gov-stream_discharge-fashion_valley_sd \
+sccoos.org-water_measurements
 
 
 include ../include.mk

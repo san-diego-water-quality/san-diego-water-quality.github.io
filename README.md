@@ -33,11 +33,15 @@ After setting up your account, you should:
 
 # Datasets
 
-*  The ``water-project`` tag in our [Data Repository](https://data.sandiegodata.org/dataset?tags=water-project) has all of the released datasets. 
-* The two most important are: 
-	* [San Diego Beachwatch Data, With Features](https://data.sandiegodata.org/dataset/sandiegodata-org-beachwatch)
-	* [Tides, River Flow and Rain](https://data.sandiegodata.org/dataset/sandiegodata-org-water_quality)
-* All of the datsets can be built from source from our [github repo.](https://github.com/san-diego-water-quality/water-datasets)
+The ``water-project`` tag in our [Data Repository](https://data.sandiegodata.org/dataset?tags=water-project) has all of the released datasets. 
+
+The two most important are: 
+* [San Diego Beachwatch Data, With Features](https://data.sandiegodata.org/dataset/sandiegodata-org-beachwatch)
+* [Tides, River Flow and Rain](https://data.sandiegodata.org/dataset/sandiegodata-org-water_quality)
+
+All of the datsets can be built from source from our [github repo.](https://github.com/san-diego-water-quality/water-datasets)
+
+
 
 # Maps
 
