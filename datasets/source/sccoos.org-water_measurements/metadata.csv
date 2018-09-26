@@ -1,0 +1,60 @@
+Declare,metatab-latest,,,,
+Title,SCCOOS Water Measurements,,,,
+Description,"Water measurements for chlorophyll, algae, nutrients and other algal indicators,",,,,
+Description,for Scripps Pier,,,,
+Identifier,79288c4c-3473-4780-8406-3a93df22a712,,,,
+Name,sccoos.org-water_measurements-la_jolla-1,,,,
+Dataset,water_measurements,,,,
+Origin,sccoos.org,,,,
+Time,,,,,
+Space,la_jolla,,,,
+Grain,,,,,
+Variant,,,,,
+Version,2,,,,
+Created,2018-09-22T03:10:51,,,,
+Modified,2018-09-22T20:46:16,,,,
+Giturl,https://github.com/san-diego-water-quality/water-quality-project.git,,,,
+,,,,,
+Section,Contacts,Email,Organization,Url,
+Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com,
+,,,,,
+Section,Documentation,Title,Description,,
+Documentation,file:README.md,README,,,
+Homepage,http://sccoos.org/query/?project=Harmful%20Algal%20Blooms&study[]=Scripps%20Pier,Data download page,,,
+Note,Measurement date range from 1997 to 2018.,,,,
+,,,,,
+Section,Resources,Name,Description,,
+Datafile,file:data/blooms.csv,algal_blooms,Measurements related to harmful Algal blooms.,,
+,,,,,
+Section,Schema,DataType,AltName,Transform,Description
+Table,algal_blooms,,,,
+Table.Column,year,integer,,,
+Table.Column,month,integer,,,
+Table.Column,day,integer,,,
+Table.Column,time,time,,,
+Table.Column,latitude,number,,,
+Table.Column,longitude,number,,,
+Table.Column,depth (m),integer,depth,,
+Table.Column,location,string,,,
+Table.Column,Akashiwo sanguinea (cells/L),number,akashiwo_sanguinea,clean_nan,Akashiwo sanguinea (cells/L)
+Table.Column,Alexandrium spp. (cells/L),number,alexandrium_spp,clean_nan,Alexandrium spp. (cells/L)
+Table.Column,Ammonia (uM),number,ammonia,clean_nan,Ammonia (uM)
+Table.Column,Chlorophyll (mg/m3),number,chlorophyll,clean_nan,Chlorophyll (mg/m3)
+Table.Column,Chlorophyll 1 (mg/m3),number,chlorophyll_1,clean_nan,Chlorophyll 1 (mg/m3)
+Table.Column,Chlorophyll 2 (mg/m3),number,chlorophyll_2,clean_nan,Chlorophyll 2 (mg/m3)
+Table.Column,DA Volume Filtered (mL),number,da_volume_filtered,clean_nan,DA Volume Filtered (mL)
+Table.Column,Dinophysis spp. (cells/L),number,dinophysis_spp,clean_nan,Dinophysis spp. (cells/L)
+Table.Column,Domoic Acid (ng/mL),number,domoic_acid,clean_nan,Domoic Acid (ng/mL)
+Table.Column,Lingulodinium polyedrum (cells/L),number,lingulodinium_polyedrum,clean_nan,Lingulodinium polyedrum (cells/L)
+Table.Column,Nitrate (uM),number,nitrate,clean_nan,Nitrate (uM)
+Table.Column,Nitrite (uM),number,nitrite,clean_nan,Nitrite (uM)
+Table.Column,Phaeophytin (mg/m3),number,phaeophytin,clean_nan,Phaeophytin (mg/m3)
+Table.Column,Phaeophytin 1 (mg/m3),number,phaeophytin_1,clean_nan,Phaeophytin 1 (mg/m3)
+Table.Column,Phaeophytin 2 (mg/m3),number,phaeophytin_2,clean_nan,Phaeophytin 2 (mg/m3)
+Table.Column,Phosphate (uM),number,phosphate,clean_nan,Phosphate (uM)
+Table.Column,Prorocentrum spp. (cells/L),number,prorocentrum_spp,clean_nan,Prorocentrum spp. (cells/L)
+Table.Column,Pseudo-nitzschia delicatissima group (cells/L),number,pseudo_nitzschia_delicatissima_group,clean_nan,Pseudo-nitzschia delicatissima group (cells/L)
+Table.Column,Pseudo-nitzschia seriata group (cells/L),number,pseudo_nitzschia_seriata_group,clean_nan,Pseudo-nitzschia seriata group (cells/L)
+Table.Column,Silicate (uM),number,silicate,clean_nan,Silicate (uM)
+Table.Column,Volume Settled for counting (mL),number,volume_settled_for_counting,clean_nan,Volume Settled for counting (mL)
+Table.Column,Water Temperature (C),number,water_temperature,clean_nan,Water Temperature (C)
