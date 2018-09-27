@@ -1,31 +1,32 @@
-Declare,metatab-latest,,,,
-Title,SCCOOS Water Measurements,,,,
-Description,"Water measurements for chlorophyll, algae, nutrients and other algal indicators,",,,,
-Description,for Scripps Pier,,,,
-Identifier,79288c4c-3473-4780-8406-3a93df22a712,,,,
-Name,sccoos.org-water_measurements-la_jolla-1,,,,
-Dataset,water_measurements,,,,
-Origin,sccoos.org,,,,
-Time,,,,,
-Space,la_jolla,,,,
-Grain,,,,,
-Variant,,,,,
-Version,2,,,,
-Created,2018-09-22T03:10:51,,,,
-Modified,2018-09-22T20:46:16,,,,
-Giturl,https://github.com/san-diego-water-quality/water-quality-project.git,,,,
-,,,,,
+Declare,metatab-latest
+Title,SCCOOS Water Measurements
+Description,"Water measurements for chlorophyll, algae, nutrients and other algal indicators,"
+Description,for Scripps Pier
+Identifier,79288c4c-3473-4780-8406-3a93df22a712
+Name,sccoos.org-water_measurements-la_jolla-2
+Dataset,water_measurements
+Origin,sccoos.org
+Time,
+Space,la_jolla
+Grain,
+Variant,
+Version,2
+Created,2018-09-22T03:10:51
+Modified,2018-09-26T22:06:50
+Giturl,https://github.com/san-diego-water-quality/water-quality-project.git
+""
 Section,Contacts,Email,Organization,Url,
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com,
-,,,,,
+""
 Section,Documentation,Title,Description,,
 Documentation,file:README.md,README,,,
 Homepage,http://sccoos.org/query/?project=Harmful%20Algal%20Blooms&study[]=Scripps%20Pier,Data download page,,,
+Documentation,https://github.com/san-diego-water-quality/water-quality-project/blob/master/datasets/source/sccoos.org-water_measurements/notebooks/eda-algal_blooms.ipynb,EDA Notebook,Exploratory Data Analysis,,
 Note,Measurement date range from 1997 to 2018.,,,,
-,,,,,
+""
 Section,Resources,Name,Description,,
 Datafile,file:data/blooms.csv,algal_blooms,Measurements related to harmful Algal blooms.,,
-,,,,,
+""
 Section,Schema,DataType,AltName,Transform,Description
 Table,algal_blooms,,,,
 Table.Column,year,integer,,,

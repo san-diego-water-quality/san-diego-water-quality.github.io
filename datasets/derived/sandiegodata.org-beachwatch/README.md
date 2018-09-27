@@ -106,5 +106,9 @@ The most prevalent measure code in this dataset is 24 for Enterococcus (analyte)
     levels of these organisms more accurately predict acute gastrointestinal
     illness than levels of fecal coliforms.
     
+# Versions
+
+4. First released version
+5. Added EDA notebook
     
 
