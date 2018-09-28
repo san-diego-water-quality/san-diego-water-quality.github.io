@@ -3,26 +3,27 @@ Title,"San Diego Beachwatch Data, With Features"
 Description,"Water quality data for San Diego county beaches from CEDEN, with added features"
 Description,"for log transformation, quantiles and group codes."
 Identifier,2fd7bc17-28c2-4f4a-b494-1d9ca706a79a
-Name,sandiegodata.org-beachwatch-4
+Name,sandiegodata.org-beachwatch-5
 Dataset,beachwatch
 Origin,sandiegodata.org
-Version,4
+Version,5
 Tag,water-project
 Created,2018-08-07T14:26:42
-Modified,2018-08-10T22:40:38
+Modified,2018-09-27T18:14:08
 Issued,2018-08-10T22:40:32
 Distribution,http://library.metatab.org/sandiegodata.org-beachwatch-4/metadata.csv
 Distribution,http://library.metatab.org/sandiegodata.org-beachwatch-4.zip
 Distribution,http://library.metatab.org/sandiegodata.org-beachwatch-4.csv
 Ckanid,083b5c5a-d869-4562-a643-a00ee42462a2
-Giturl,https://github.com/san-diego-water-quality/water-datasets.git
+Giturl,https://github.com/san-diego-water-quality/water-quality-project.git
 ""
 Section,Contacts,Email,Organization,Url,
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com,
 ""
 Section,Documentation,Title,Description,,
 Documentation,file:README.md,README,,,
-Notebook,notebooks/Examples.ipynb,Examples,Usage and regression examples,,
+Documentation,notebooks/Examples.ipynb,Examples,Usage and regression examples,,
+Documentation,https://github.com/san-diego-water-quality/water-quality-project/blob/master/datasets/derived/sandiegodata.org-beachwatch/notebooks/eda-beachwatch.ipynb,EDA Notebook,Exploratory Data Analysis,,
 Downloadpage,https://ceden.waterboards.ca.gov/AdvancedQueryTool,source_page,CEDEN advanced query tool page,,
 Downloadpage,https://ceden.waterboards.ca.gov/Metadata/ControlledVocab.php,controlled_vocab,Controlled vocabulary search page,,
 Downloadpage,https://ceden.waterboards.ca.gov/Metadata/get_lu_data.php?format=html&table=AnalyteLU&include_all=yes,analyte_cv,Analyte controlled vocabulary,,
