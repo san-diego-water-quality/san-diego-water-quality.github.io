@@ -29,8 +29,7 @@ After setting up your account, you should:
 * [Google Drive File
   Share](https://drive.google.com/open?id=1YUCKXsL_HsCnZmA5u3ySczJNkGbnwCT2 )
 * [Data Repository](https://data.sandiegodata.org/dataset?tags=water-project)
-* [Our Jupyter Lab server](https://jupyter.civicknowledge.com/). Log in
-      with your Redmine credentials.
+* [Our Jupyter Lab server](https://jupyter.civicknowledge.com/). Login with Github, after being [listed on the access list](https://www.sandiegodata.org/2018/09/jupyter-web-service/)
 
 # Datasets
 
