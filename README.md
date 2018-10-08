@@ -7,7 +7,7 @@ data analysis skills, get detailed knowledge of environmental issues, or to
 contribute to improving San Diego's natural resources. Anyone is welcome to
 participate in the project.
 
-*Current Work* 10 Oct to 19 Nov, we are working on making submissions for a [Water Quality Data Visualization Challenge.](https://github.com/san-diego-water-quality/water-quality-project/wiki/SFEI-Visualization-Contest) 
+_Current Work_: 10 Oct to 19 Nov, we are working on making submissions for a [Water Quality Data Visualization Challenge.](https://github.com/san-diego-water-quality/water-quality-project/wiki/SFEI-Visualization-Contest) 
 
 # Getting Started
 
