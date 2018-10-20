@@ -15,7 +15,7 @@ If you'd like to join the project:
 
 * Join the [Mailing List/Google Group](https://groups.google.com/a/sandiegodata.org/forum/#!forum/water)
 * Attend a [Meetup](https://www.meetup.com/San-Diego-Regional-Data-Library/)
-* Join the #water channel [on our Slack](https://join.slack.com/t/sandiegodata/shared_invite/enQtNDUxMTIzNDQxNTA2LTE3OWFmZWY5Y2RkMmFmYjI5ODJmMzkzOWIxZjNhOWE0NzI4ZGQ1Yzc2MmEzNjQ0YWUwYWJiOTM0NmI0N2Q3NjQ)
+* Join the #water channel [on our Slack](https://join.slack.com/t/sandiegodata/shared_invite/enQtNDYwMTU0Mzk2MTI5LTE5NjNkNWU2MTRkMjMyMzZmMzFkYTE0N2E3MDE5ZmRlZmJhYTRiNTk5MzEzYTVkNGRiNDBhZWRjYTI4OThlYWQ)
 
 After setting up your account, you should: 
 
